@@ -1,0 +1,35 @@
+.container{
+    margin:0;
+    padding:0;
+    width: 95%;
+    padding-left: 2%;
+    text-align: justify;
+}
+body{
+    color: aliceblue;
+    font-size: 15px;
+    background-color: rgb(247, 154, 154);
+}
+h1, h2{
+    text-align: center;
+}
+nav{
+    color: aliceblue;
+}
+@media screen and (min-width: 600px) 
+{
+    body{
+        background-color: rgb(175, 175, 241);
+    }
+      .column{
+          width: 30%;
+          display: inline-block;
+          margin-left: 2%;
+      }
+}
+@media screen and (min-width: 900px)
+{
+    body{
+        background-color:rgb(147, 241, 147);
+       }
+}
